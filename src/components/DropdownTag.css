@@ -1,0 +1,68 @@
+/* .dropDown {
+    position: absolute;
+    top: 4.5rem;
+    right: 1.5rem;
+    width: 150px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid gray;
+}
+
+.dropDown::before{
+    content: "";
+    position: absolute;
+    top: -0.95rem;
+    width: 25px;
+    height: 25px;
+    right: 25px;
+    transform: rotate(45deg);
+    background-color: rgb(255, 255, 255);
+    border-left: 3px solid gray;
+    border-top: 3px solid gray;
+
+}
+li {
+    color: black;
+} */
+
+/* Dropdown.css */
+.dropdown {
+  position: relative; /* สำคัญ: ทำให้ Dropdown Menu อยู่ในตำแหน่งที่สัมพันธ์กับปุ่ม */
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.dropdown-menu {
+  position: absolute; /* ทำให้ Menu ลอยอยู่เหนือเนื้อหาอื่น */
+  z-index: 10; /* ให้ Menu อยู่ด้านหน้าสุด */
+  min-width: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  list-style-type: none; /* ลบสัญลักษณ์หัวข้อ */
+  padding: 0;
+  margin: 0;
+  border-radius: 4px;
+  overflow: hidden; /* ซ่อนขอบที่เกินมา */
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: #ddd; /* เปลี่ยนสีเมื่อเมาส์ชี้ */
+}
+

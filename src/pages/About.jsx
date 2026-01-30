@@ -6,6 +6,7 @@ function About(){
             <title>Requirement</title>
             <article>
                 <h2>Requirement Web SAIG</h2>
+                
                 <p>ในการส่ง Project ของ SAIG Web น้องๆจะต้องทำ ตามหัวข้อและเงื่อนไขที่ได้ระบุไว้เท่านั้น
                     ไม่จำเป็นต้องทำทุกหัวข้อยกเว้นส่วนของ Tech Stack ที่ต้องใช้ตามที่กำหนดไว้
                     แต่ละหัวข้อจะมีคะแนนที่ต่างกันตามความสำคัญของหัวข้อนั้นๆ
@@ -28,26 +29,26 @@ function About(){
                     <li>Booking Board Game + Room(Table) to play <br />
                     <ul>
                         <li>User <br /> <ul>
-                                            <li>Login and Register (Required)</li>
-                                            <li>Profile (Required)</li>
-                                            <li>View all Board game list (Required)</li>
-                                            <li>Book Board game and select room table (Required)</li>
-                                            <li>select date and time to play (Required)</li>
-                                            <li>Booking History (Required)</li>
-                                            <li>Payment by Promptpay (Optional)</li>
-                                            <li>Point base on Booking Time (Optional)</li>
-                                            <li>Price base on Booking Time (Optional)</li>
-                                            <li>Promotion by design yourself (Optional)</li>
-                                            <li>Search and Filter Board game (Required)</li>
+                                            <li><input type="checkbox" id="user_1"/>Login and Register (Required)</li>
+                                            <li><input type="checkbox" id="user_2"/>Profile (Required)</li>
+                                            <li><input type="checkbox" id="user_3"/>View all Board game list (Required)</li>
+                                            <li><input type="checkbox" id="user_4"/>Book Board game and select room table (Required)</li>
+                                            <li><input type="checkbox" id="user_5"/>select date and time to play (Required)</li>
+                                            <li><input type="checkbox" id="user_6"/>Booking History (Required)</li>
+                                            <li><input type="checkbox" id="user_7"/>Payment by Promptpay (Optional)</li>
+                                            <li><input type="checkbox" id="user_8"/>Point base on Booking Time (Optional)</li>
+                                            <li><input type="checkbox" id="user_9"/>Price base on Booking Time (Optional)</li>
+                                            <li><input type="checkbox" id="user_10"/>Promotion by design yourself (Optional)</li>
+                                            <li><input type="checkbox" id="user_11"/>Search and Filter Board game (Required)</li>
                                             </ul></li>
                         <li>Admin <br /><ul>
-                                            <li>Based on User but cannot booking (Required)</li>
-                                            <li>CRUD Board game (Required)</li>
-                                            <li>CRUD Category of board game (Required)</li>
-                                            <li>Manage User (Banned User) (optional)</li>
-                                            <li>CRUD Room and Table (Required)</li>
-                                            <li>Manage Transaction Payment (Required)</li>
-                                            <li>Upload File (Optional)</li>
+                                            <li><input type="checkbox" id="admin_1"/>Based on User but cannot booking (Required)</li>
+                                            <li><input type="checkbox" id="admin_2"/>CRUD Board game (Required)</li>
+                                            <li><input type="checkbox" id="admin_3"/>CRUD Category of board game (Required)</li>
+                                            <li><input type="checkbox" id="admin_4"/>Manage User (Banned User) (optional)</li>
+                                            <li><input type="checkbox" id="admin_5"/>CRUD Room and Table (Required)</li>
+                                            <li><input type="checkbox" id="admin_6"/>Manage Transaction Payment (Required)</li>
+                                            <li><input type="checkbox" id="admin_7"/>Upload File (Optional)</li>
                                             </ul></li>
                         </ul>
 
@@ -57,16 +58,16 @@ function About(){
                 <ul>
                     <li>Backend</li>
                     <ul>
-                        <li>JWT Authentication (3, Required)</li>
-                        <li> Accesstoken, Refresh token (2, Optional)</li>
-                        <li> Search, Filter and Pagination (2, Required)</li>
-                        <li> Form Validation (3, Required)</li>
-                        <li> Rbac (Role Back access control) (2, Required)</li>
-                        <li> CRUD (Create, Read, Update, Delete) (3, Required)</li>
-                        <li> Upload file to cloud (4, Optional)</li>
-                        <li> Rated Limit (2, Optional)</li>
-                        <li> Response Template Message (2, Optional)</li>
-                        <li> Postman and Swagger (2, Required)</li>
+                        <li><input type="checkbox" id="backend_1"/> JWT Authentication (3, Required)</li>
+                        <li><input type="checkbox" id="backend_2"/> Accesstoken, Refresh token (2, Optional)</li>
+                        <li><input type="checkbox" id="backend_3"/> Search, Filter and Pagination (2, Required)</li>
+                        <li><input type="checkbox" id="backend_4"/> Form Validation (3, Required)</li>
+                        <li><input type="checkbox" id="backend_5"/> Rbac (Role Back access control) (2, Required)</li>
+                        <li><input type="checkbox" id="backend_6"/> CRUD (Create, Read, Update, Delete) (3, Required)</li>
+                        <li><input type="checkbox" id="backend_7"/> Upload file to cloud (4, Optional)</li>
+                        <li><input type="checkbox" id="backend_8"/> Rated Limit (2, Optional)</li>
+                        <li><input type="checkbox" id="backend_9"/> Response Template Message (2, Optional)</li>
+                        <li><input type="checkbox" id="backend_10"/> Postman and Swagger (2, Required)</li>
                     </ul>
                 </ul>
             </article>

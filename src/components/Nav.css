@@ -1,16 +1,15 @@
+@import "tailwindcss";
+
 .component-top-right {
- /* 1. กำหนดให้ Element หลุดจาก Flow ปกติ และตรึงไว้กับหน้าจอ */
-    position: static; 
-    /* 2. กำหนดระยะห่างจากขอบด้านบน */
-    top: 30px; 
-    /* 3. กำหนดระยะห่างจากขอบด้านขวา */
-    left: 30px;
-    /* (ทางเลือก) เพื่อให้แน่ใจว่า Component อยู่บน Element อื่นๆ */
+    top: 0px; 
+    /* left: 30px; */
     z-index: 1000;
     display: flex;
-    gap: 20px;
-    padding: 10px;
-    background: #f4f4f4
+    /* gap: 20px; */
+    /* padding: 10px; */
+    background: #db9393;
+    /* width: 100%; */
+    position: fixed;
 }
 .link-box{
     margin: 2rem;
